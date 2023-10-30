@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1698694724933,
+      "tag": "0000_dusty_sunset_bain",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "@richaardev/eslint-config/typescript"
+  ],
+  "rules": {
+    "no-new": "off"
+  },
+  "globals": {
+    "NodeJS": true
+  }
+}
