@@ -1,6 +1,6 @@
 import { desc, eq } from "drizzle-orm";
 
-import { database } from "..";
+import { database } from "../";
 import { SelectUsers, users } from "../schemas";
 
 interface UpdateUserData {

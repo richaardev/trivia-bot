@@ -1,7 +1,7 @@
 import { Listener } from "@/core/discord/structures/Listener";
 import { Telemetry } from "@/shared/utils/telemetry";
 
-import { client } from "..";
+import { client } from "../";
 
 export const ReadyListener = new Listener({
   listener: "ready",
