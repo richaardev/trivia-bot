@@ -10,7 +10,8 @@
     "drizzle:drop": "drizzle-kit drop",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint --fix src",
-    "build": "node esbuild.config.js",
+    "clean": "rimraf dist/",
+    "build": "npm run clean && node esbuild.config.js",
     "build:start": "npm run build && npm run start",
     "dev": "tsx src/index.ts",
     "dev:watch": "tsx watch src/index.ts",
@@ -30,6 +31,7 @@
     "oceanic.js": "^1.8.1",
     "pg": "^8.11.3",
     "resolve-tspaths": "^0.8.17",
+    "rimraf": "^5.0.5",
     "zod": "^3.22.4"
   },
   "devDependencies": {

@@ -1,0 +1,7 @@
+.devcontainer
+dist
+node_modules
+.eslintignore
+.eslintrc.json
+.gitignore
+readme.md

@@ -8,6 +8,8 @@ enum LEVEL_TYPE {
   DEBUG,
 }
 
+const EOL = "\n";
+
 export class Telemetry {
   private static getCurrentDate() {
     const date = new Date();
@@ -36,12 +38,12 @@ export class Telemetry {
   }
 
   private static lg(level: LEVEL_TYPE, ...messages: string[]) {
-    console.log(
+    process.stdout.write(
       [
         `${this.getCurrentDate()}`,
         `${this.levelColor(level)}:`,
         chalk.whiteBright(`${messages.join(" ")}`),
-        // EOL,
+        EOL,
       ].join(" "),
     );
   }
