@@ -15,7 +15,7 @@
 
 ## Preview
 
-
+<video src="https://github.com/user-attachments/assets/6cc9ce47-dffe-4771-834b-e00af2c4f6d9"></video>
 
 ## Commands
 
